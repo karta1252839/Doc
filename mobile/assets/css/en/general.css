@@ -1,0 +1,242 @@
+
+body, html {
+  background: #0b2351; /* MAIN THEME BACKROUND */  
+  font-family : arial, tahoma;
+  margin: 0;
+  padding: 0;
+  color:#ffffff;
+  font-size:16px;
+}
+
+* {
+    box-sizing: border-box;
+}
+.row { zoom:1; / For IE 6/7 */ }
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+[class*="col-"], [class*="menu-"]{
+    float: left;	
+}
+
+select, input{font-size:16px;}
+select { 
+  width:100%;
+  height:40px;
+  background-color: #212026;
+  border:0;
+  color:#FFFFFF;
+}
+select option,.select-selected{border:0;}
+small{font-size:12px;}
+
+.menu-1 {width: 13.33%;}
+.menu-2 {width: 33.33%;}
+.menu-3 {width: 16.67%;}
+
+.menu-2 {
+	font-weight:bold;
+	font-size: 16px;	
+	line-height:28px;	
+}
+
+.menu-3{
+	font-size:14px;
+	color: #38c9ff; /*THEME COLOR*/
+	line-height:28px;
+}
+
+[class*="menu-"] { z-index:1; position:relative;}
+
+.company_name {
+	position:absolute;
+	top:15px;
+	font-weight:bold;
+	font-size: 16px;
+	width:100%;
+	z-index:0;	
+}
+.border-bottom{border-bottom:0.5px solid #38373d; }
+.border-bottom-1px{border-bottom:1px solid #38373d; } 
+.align-right {text-align:right;}
+.align-center {text-align:center;}
+.font-theme {color: #38c9ff; /*THEME COLOR*/}
+.font-white{color:#FFFFFF;}
+.border-theme{border:1px solid #38c9ff; /*THEME COLOR*/}
+.error{color:red;}
+.tick{color:green;}
+.font-en{font-size:10px;}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.padding {padding:10px;}
+.paddingTop {padding-top:10px;}
+.paddingBottom {padding-bottom:10px;}
+.paddingLeft {padding-left:10px;}
+.paddingRight {padding-right:10px;}
+.paddingTop5 {padding-top:5px;}
+.paddingTop15 {padding-top:15px;}
+
+.imgMenu {
+	max-width: 26px;
+	border:0;
+}
+
+.imgLogo {
+	max-width: 110px;
+	border:0;
+}
+
+.imgLogoBig {
+	max-width: 220px;
+	border:0;
+}
+
+.imgSlot {
+	max-width: 60px;
+	border:0;
+}
+
+.menu-active, .menu-default {text-align:center ; font-size:10px;}
+ 
+.menu-active{border-bottom:3px solid #38c9ff; /*THEME COLOR */}
+.menu-default{border-bottom:3px solid #545456;}
+a{text-decoration:none; color:#FFFFFF;}
+
+.catagory1,.catagory2,.catagory3,.catagory4,.catagory5,.catagory6 {    
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;	
+  width:100%;
+  height: 91px;        
+  line-height:100px;
+  display:block;  
+}
+
+.catagory1 {background-image: url("../../img/sport.jpg");}
+.catagory2 {background-image: url("../../img/byw.jpg");}
+.catagory3 {background-image: url("../../img/casino.jpg");}
+.catagory4 {background-image: url("../../img/pt.jpg");}
+.catagory5 {background-image: url("../../img/mg.jpg");}
+
+.imgBanner{width:100%;}
+.normal-text{font-size:12px;}
+.tiny-text{font-size:12px;}
+
+.apply-box{	
+	border-radius: 6px;
+	background:#363f50;
+}
+.apply-divider{border-bottom: 1px solid #212026;}
+.apply-content{background: #545e6a;}
+.apply-btn, .game-btn {
+	background:#38c9ff; /*THEME COLOR */
+	border:0;	
+	color:#000;	
+	padding: 8px;
+	display:block;
+	font-weight:bold;
+	text-align:center;
+	font-size:12px;
+	
+}
+.apply-btn{
+	width:70px;
+	border-radius: 2px;
+}
+.apply-bottom{
+	background: #545e6a;
+	border-radius: 0 0 6px 6px;
+}
+.signout-btn{
+	background:#555555;
+	display:block;				
+	border-radius: 10px;
+	font-weight:bold;
+	font-size:12px;
+	padding: 8px;
+	text-align:center;
+}
+.game-btn {	
+	border-radius: 8px;	
+	width:120px;
+}
+.form-btn{
+	background:#38c9ff; /*THEME COLOR */
+	display:block;				
+	border-radius: 10px;
+	font-weight:bold;
+	font-size:12px;
+	padding: 8px;
+	text-align:center;
+	color:#000;
+}
+.form-dropdown, .form-field, .form-search-field{
+	width:99%;
+	height: 26px;
+	border: 1px solid #38373d;
+	padding-left:5px;
+	background-color:#212026;
+	color:#FFFFFF;
+}
+
+.form-search-field{	
+	background-image: url('../../img/search.png');
+    background-position: 10px 1px; 
+    background-repeat: no-repeat;
+	background-color:#212026;
+	color:#bebebe;
+	padding-left:40px;
+	 -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+
+.overlay{
+	width:100%;
+	height:100%;
+	position:fixed;
+	top:0;
+	background: rgba(0, 0, 0, 0.69);
+	text-align:center;
+	padding-top:40%;
+	display:none;
+}
+
+.overlay span{	
+	color:#FFFFFF;
+	font-weight:bold;	
+}
+
+.overlay img{	
+	width:150px;
+	height:150px;
+	border:	0;
+}
+
+@media only screen and (min-width: 600px)  {
+	.catagory1 {background-image: url("../../img/sport1280.jpg");}
+	.catagory2 {background-image: url("../../img/byw1280.jpg");}
+	.catagory3 {background-image: url("../../img/casino1280.jpg");}
+	.catagory4 {background-image: url("../../img/pt1280.jpg");}
+	.catagory5 {background-image: url("../../img/mg1280.jpg");}	
+	.catagory1,.catagory2,.catagory3,.catagory4,.catagory5{
+		height: 130px;
+		line-height:130px;
+	}	
+}

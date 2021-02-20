@@ -1,0 +1,77 @@
+.bodys {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    /*	padding: 30px;*/
+}
+
+    .bodys .cont {
+        width: 100%;
+    }
+
+    .bodys .container {
+        display: -webkit-box;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100% !important;
+        -webkit-box-pack: start;
+        justify-content: flex-start;
+        margin-right: unset !important;
+        margin-left: unset !important;
+        padding: unset !important;
+    }
+
+    .bodys .single-item {
+        width: 200px;
+        height: 200px;
+        display: -webkit-box;
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        justify-content: center;
+        background-color: #f3f3f3;
+        margin: 20px;
+        border-radius: 10px;
+        color: #888;
+    }
+
+    .bodys .pagination {
+        padding: 20px;
+        width: 100%;
+        text-align: center;
+    }
+
+        .bodys .pagination,
+        .bodys .pagination * {
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+            .bodys .pagination a {
+                display: inline-block;
+                padding: 0 10px;
+                cursor: pointer;
+                color: white !important;
+            }
+
+                .bodys .pagination a.disabled {
+                    opacity: .3;
+                    pointer-events: none;
+                    cursor: not-allowed;
+                }
+
+                .bodys .pagination a.current {
+                    background: #ece061;
+                    color: #757575 !important;
+                }

@@ -1,0 +1,1276 @@
+@media (max-width:1980px) {
+    .select2-container--bootstrap .select2-results__option {
+        margin-top: 5px;
+    }
+}
+/*800px*/
+@media (max-width:800px) {
+    .container {
+        width: 800px;
+    }
+    /*manu*/
+    .navbar-toggle .icon-bar {
+        width: 35px;
+        height: 5px;
+        margin: 15px  0 0 -10px;
+    }
+    .navbar-toggle .icon-bar + .icon-bar {
+        margin-top: 5px;
+    }
+    /*logo*/
+    .navbar-brand-logo {
+        height: 75px;
+    }
+     /*signuicon*/
+    .signupicon {
+        font-size: 25px;
+        color: #ffffff;
+        margin-top: 12px;
+    }
+    /*welcome*/
+    .welcometitle, welcometitle1 {
+        top: 13px;
+        font-size: 22px;
+        color: #ffeb01;
+    }
+    /*lngicon*/
+    .img-flag {
+        /*margin-top: 15px;*/
+        margin-top: 0px;
+        height: 40px;
+        width: 40px;
+    }
+    .select2-container--bootstrap .select2-results__option[aria-selected=true] {
+        margin-top: 10px;
+        width: 44px;
+        height: 44px;
+    }
+    .select2-container--bootstrap .select2-selection--single .select2-selection__arrow {
+        position: absolute;
+        bottom: 0;
+        right: -5px;
+        top: 15px;
+        width: 4px;
+    }
+    .select2-container--bootstrap .select2-selection--single .select2-selection__rendered {
+        margin-top: 15px;
+    }    
+    /*news*/
+    .myspeakericon {
+        width: 40px;
+        height: 40px;
+    }
+    .mynew04 {
+        width: 7%;
+    }
+    .ti_wrapper {
+        width: 90%;
+        height: 35px;
+    }
+    marquee {
+        line-height: 35px;
+        font-size: 16px;
+    }
+    /*chat icon*/
+    .bottombut {
+        top: 150px;
+        width: 70px;
+        height: 45px;
+    }
+    /*jackpot*/
+    .mytopbannerright {
+        height: 110px;
+        width: 100%;
+        margin: 0 auto;
+        background-size: 2100px; 
+    }
+    .font-02 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+    /*manu 4 boxs*/
+    .myicontext {
+        width: 300px;
+        height: 50px;
+        top: 0px;
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .mysidebut01 {
+        width: 150px;
+        height: 50px;
+        margin-top: 0px;
+        margin-right: -20px;
+        font-weight: 600;
+        font-style: initial;
+        font-size: 25px;
+        line-height: 0;
+    }
+    .mycasino {
+        height: 120px;
+    }
+    .livelogo01 {
+        margin-top: -15px;
+    }
+    .livelogo01 .livelogo {
+        width: 120px;
+        height: 35px;
+    }
+    .livelogo02 {
+        margin-top: -13px;
+    }
+    .livelogo02 .livelogo {
+        width: 120px;
+        height: 35px;
+    }
+    .livelogo03 .livelogo{
+        width: 180px;
+        height: 64px;
+    }
+    .layat {
+        position: absolute;
+        top: 55px;
+    }
+    .livelogo {
+        height: 50px;
+    }
+    .casinomainbg {
+        background-size: cover;
+    }
+    .slotgamebg {
+        background-size: cover;
+    }
+    .fishmainbg {
+        background-size: cover;
+    }
+    .sportmainbg {
+        background-size: cover;
+    }
+    /*00000*/
+    .mylogolist li {
+    margin-right: 0px;
+    }
+    .x-logout {
+        display: block !important; 
+    }
+    /*profile*/
+    .col-sm-12.col-md-7.myprofilebg01, .col-sm-12.col-md-4.myprofilebg02 {
+        margin: 5% 0%;
+        width: 100%;
+    }
+    .myproicon {
+        display: initial;
+        width: 50%;
+    }
+    .myjoinbutton7 {
+        width: 75%;
+    }
+}
+/*736px~768px*/
+@media (max-width:768px) {
+    .container {
+        width: 700px;
+    }
+    /*manu*/
+    .navbar-toggle .icon-bar {
+        width: 35px;
+        height: 4px;
+        margin: 15px  0 0 -10px;
+    }
+    .navbar-toggle .icon-bar + .icon-bar {
+        margin-top: 6px;
+    }
+    /*logo*/
+    .navbar-brand-logo {
+        height: 75px;
+    }
+     /*signuicon*/
+    .signupicon {
+        font-size: 22px;
+        color: #ffffff;
+        margin-top: 15px;
+    }
+    /*welcome*/
+    .welcometitle, welcometitle1 {
+        top: 13px;
+        font-size: 20px;
+        color: #ffeb01;
+    }
+    /*lngicon*/
+    .img-flag {
+        margin-top: 0px;
+        height: 36px;
+        width: 36px;
+    }
+    .select2-container--bootstrap .select2-results__option[aria-selected=true] {
+        margin-top: 10px;
+        width: 40px;
+        height: 40px;
+    }
+    .select2-container--bootstrap .select2-selection--single .select2-selection__arrow {
+        position: absolute;
+        bottom: 0;
+        right: 0px;
+        top: 15px;
+        width: 0px;
+    }
+    .select2-container--bootstrap .select2-selection--single .select2-selection__rendered {
+        margin-top: 15px;
+    }
+    /*news*/
+    .myspeakericon {
+        width: 40px;
+        height: 40px;
+    }
+    .mynew04 {
+        width: 7%;
+    }
+    .ti_wrapper {
+        width: 90%;
+        height: 35px;
+    }
+    marquee {
+        line-height: 35px;
+        font-size: 16px;
+    }
+    /*chat icon*/
+    .bottombut {
+        top: 150px;
+        width: 70px;
+        height: 45px;
+    }
+   /*jackpot*/
+    .mytopbannerright {
+        height: 110px;
+        width: 100%;
+        margin: 0 auto;
+        background-size: 2100px; 
+    }
+    .font-02 {
+        font-size: 30px;
+        line-height: 50px;
+    }
+    /*manu 4 boxs*/
+    .myicontext {
+        width: 300px;
+        height: 50px;
+        top: 0px;
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .mysidebut01 {
+        width: 150px;
+        height: 50px;
+        margin-top: 0px;
+        margin-right: -20px;
+        font-weight: 600;
+        font-style: initial;
+        font-size: 25px;
+        line-height: 0;
+    }
+    .mycasino {
+        height: 120px;
+    }
+    .livelogo01 {
+        margin-top: -15px;
+    }
+    .livelogo01 .livelogo {
+        width: 120px;
+        height: 35px;
+    }
+    .livelogo02 {
+        margin-top: -13px;
+    }
+    .livelogo02 .livelogo {
+        width: 120px;
+        height: 35px;
+    }
+    .livelogo03 .livelogo{
+        width: 180px;
+        height: 64px;
+    }
+    .layat {
+        position: absolute;
+        top: 55px;
+    }
+    .livelogo {
+        height: 50px;
+    }
+    .casinomainbg {
+        background-size: cover;
+    }
+    .slotgamebg {
+        background-size: cover;
+    }
+    .fishmainbg {
+        background-size: cover;
+    }
+    .sportmainbg {
+        background-size: cover;
+    }
+    .myproicon {
+        display: initial;
+        width: 50%;
+    }
+    /*profile*/
+    .col-sm-12.col-md-7.myprofilebg01, .col-sm-12.col-md-4.myprofilebg02 {
+        margin: 5% -4%;
+        width: 100%;
+    }
+    .myjoinbutton7 {
+        width: 75%;
+    }
+}
+
+@media (max-width:736px) {
+    .myjoinbutton7 {
+        width: 100%;
+    }
+}
+/*640px~667px*/
+@media (max-width:667px) {
+    .container {
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 100%;
+    }
+    /*manu*/
+    .navbar-toggle .icon-bar {
+        width: 34px;
+        height: 4px;
+        margin: 15px 0 0 2px;
+    }
+    .navbar-toggle .icon-bar + .icon-bar {
+        margin-top: 5px;
+    }
+    /*logo*/
+    .navbar-brand-logo {
+        height: 70px;
+    }
+    /*signuicon*/
+    .signupicon {
+        font-size: 22px;
+        color: #ffffff;
+        margin-top: 10px;
+    }
+    /*welcome*/
+    .welcometitle, welcometitle1 {
+        top: 12px;
+        font-size: 20px;
+        color: #ffeb01;
+    }
+    /*lngicon*/
+    .img-flag {
+        margin-top: 0px;
+        height: 32px;
+        width: 32px
+    }
+    .select2-container--bootstrap .select2-results__option[aria-selected=true] {
+        margin-top:10px;
+        width: 36px;
+        height: 36px;
+    }
+    .select2-container--bootstrap .select2-selection--single .select2-selection__arrow {
+        position: absolute;
+        bottom: 0;
+        right: 10px;
+        top: 15px;
+        width: 0px;
+    }
+    .select2-container--bootstrap .select2-selection--single .select2-selection__rendered {
+        margin-top: 15px;
+    }
+    /*news*/
+    .myspeakericon {
+        width: 40px;
+        height: 40px;
+    }
+    .mynew04 {
+        width: 10%;
+    }
+    .ti_wrapper {
+        width: 85%;
+        height: 30px;
+    }
+    marquee {
+        line-height: 35px;
+        font-size: 16px;
+    }
+    /*chat icon*/
+    .bottombut {
+        top: 150px;
+        width: 70px;
+        height: 45px;
+    }
+    /*jackpot*/
+    .mytopbannerright {
+        height: 100px;
+        width: 100%;
+        margin: 0 auto;
+        background-size: 1900px; 
+    }
+    .font-02 {
+        font-size: 30px;
+        line-height: 50px;
+    }
+    /*manu 4 boxs*/
+    .myicontext {
+        width: 280px;
+        height: 50px;
+        top: 0px;
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .mysidebut01 {
+        width: 130px;
+        height: 50px;
+        margin-top: 0px;
+        margin-right: -20px;
+        font-weight: 600;
+        font-style: initial;
+        font-size: 20px;
+        line-height: 0;
+    }
+    .mycasino {
+        height: 130px;
+    }
+    .livelogo01 {
+        margin-top: -16px;
+    }
+    .livelogo01 .livelogo {
+        width: 110px;
+        height: 40px;
+    }
+    .livelogo02 {
+        margin-top: -13px;
+    }
+    .livelogo02 .livelogo {
+        width: 110px;
+        height: 40px;
+    }
+    .livelogo03 .livelogo{
+        width: 150px;
+        height: 70px;
+    }
+    .layat {
+        position: absolute;
+        top: 50px;
+    }
+    .livelogo {
+        height: 50px;
+    }
+    .casinomainbg {
+        background-size: cover;
+    }
+    .slotgamebg {
+        background-size: cover;
+    }
+    .fishmainbg {
+        background-size: cover;
+    }
+    .sportmainbg {
+        background-size: cover;
+    }
+    /*profile*/
+    .col-sm-12.col-md-7.myprofilebg01, .col-sm-12.col-md-4.myprofilebg02 {
+        margin: 5% 0%;
+        width: 100%;
+    }
+    .myproicon {
+        display: initial;
+        width: 50%;
+    }
+    .myjoinbutton7 {
+        width: 100%;
+    }
+}
+/*600px*/
+@media (max-width:600px) {
+    .container {
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 100%;
+    }
+    /*manu*/
+    .navbar-toggle .icon-bar {
+        width: 34px;
+        height: 4px;
+        margin: 15px  0 0 4px;
+    }
+    .navbar-toggle .icon-bar + .icon-bar {
+        margin-top: 5px;
+    }
+    /*logo*/
+    .navbar-brand-logo {
+        height: 70px;
+    }
+     /*signuicon*/
+    .signupicon {
+        font-size: 20px;
+        color: #ffffff;
+        margin-top: 10px;
+    }
+    /*welcome*/
+    .welcometitle, welcometitle1 {
+        top: 10px;
+        font-size: 20px;
+        color: #ffeb01;
+    }
+    /*lngicon*/
+    .img-flag {
+        margin-top: 0px;
+        height: 32px;
+        width: 32px;
+    }
+    .select2-container--bootstrap .select2-results__option[aria-selected=true] {
+        width: 36px;
+        height: 36px;
+    }
+    .select2-container--bootstrap .select2-selection--single .select2-selection__arrow {
+        margin-top: 0px;
+        position: absolute;
+        bottom: 0;
+        right: 10px;
+        top: 15px;
+        width: 0px;
+    }
+    .select2-container--bootstrap .select2-selection--single .select2-selection__rendered {
+        margin-top: 15px;
+    }
+    /*news*/
+    .myspeakericon {
+        width: 40px;
+        height: 40px;
+    }
+    .mynew04 {
+        width: 15%;
+    }
+    .ti_wrapper {
+        width: 85%;
+        height: 30px;
+    }
+    marquee {
+        line-height: 35px;
+        font-size: 16px;
+    }
+    /*chat icon*/
+    .bottombut {
+        top: 150px;
+        width: 70px;
+        height: 45px;
+    }
+    /*jackpot*/
+    .mytopbannerright {
+        height: 90px;
+        width: 100%;
+        margin: 0 auto;
+        background-size: 1750px; 
+    }
+    .font-02 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+    /*manu 4 boxs*/
+    .myicontext {
+        width: 280px;
+        height: 50px;
+        top: 0px;
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .mysidebut01 {
+        width: 130px;
+        height: 50px;
+        margin-top: 0px;
+        margin-right: -20px;
+        font-weight: 600;
+        font-style: initial;
+        font-size: 20px;
+        line-height: 0;
+    }
+    .mycasino {
+        height: 135px;
+    }
+    .livelogo01 {
+        margin-top: -15px;
+    }
+    .livelogo01 .livelogo {
+        width: 110px;
+        height: 40px;
+    }
+    .livelogo02 {
+        margin-top: -13px;
+    }
+    .livelogo02 .livelogo {
+        width: 110px;
+        height: 40px;
+    }
+    .livelogo03 .livelogo{
+        width: 130px;
+        height: 70px;
+    }
+    .layat {
+        position: absolute;
+        top: 50px;
+    }
+    .livelogo {
+        height: 50px;
+    }
+    .casinomainbg {
+        background-size: cover;
+    }
+    .slotgamebg {
+        background-size: cover;
+    }
+    .fishmainbg {
+        background-size: cover;
+    }
+    .sportmainbg {
+        background-size: cover;
+    }
+    .myproicon {
+        display: initial;
+        width: 50%;
+    }
+}
+/*568px*/
+@media (max-width:568px) {
+    .container {
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 100%;
+    }
+    /*manu*/
+    .navbar-toggle .icon-bar {
+        width: 30px;
+        height: 4px;
+        margin: 10px  0 0 0px;
+    }
+    .navbar-toggle .icon-bar + .icon-bar {
+        margin-top: 5px;
+    }
+    /*logo*/
+    .navbar-brand-logo {
+        height: 60px;
+    }
+     /*signuicon*/
+    .signupicon {
+        font-size: 20px;
+        color: #ffffff;
+        margin-top: 8px;
+    }
+    /*welcome*/
+    .welcometitle, welcometitle1 {
+        top: 10px;
+        font-size: 18px;
+        color: #ffeb01;
+    }
+    /*lngicon*/
+    .img-flag {
+        margin-top: 0px;
+        margin-left: 0px;
+        height: 30px;
+        width: 30px;
+    }
+    .select2-container--bootstrap .select2-results__option[aria-selected=true] {
+        margin-top: 10px;
+        width: 34px;
+        height: 34px;
+    }
+    .select2-container--bootstrap .select2-selection--single .select2-selection__arrow {
+        position: absolute;
+        bottom: 0;
+        right: 10px;
+        top: 10px;
+        width: 0px;
+    }
+    .select2-container--bootstrap .select2-selection--single .select2-selection__rendered {
+        margin-top: 10px;
+    }
+    /*news*/
+    .myspeakericon {
+        width: 30px;
+        height: 30px;
+    }
+    .mynew04 {
+        width: 10%;
+    }
+    .ti_wrapper {
+        width: 85%;
+        height: 30px;
+    }
+    marquee {
+        line-height: 28px;
+        font-size: 14px;
+    }
+    /*chat icon*/
+    .bottombut {
+        top: 150px;
+        width: 70px;
+        height: 45px;
+    }
+    /*jackpot*/
+    .mytopbannerright {
+        height: 80px;
+        width: 100%;
+        margin: 0 auto;
+        background-size: 1550px; 
+    }
+    .font-02 {
+        font-size: 25px;
+        line-height: 40px;
+    }
+    /*manu 4 boxs*/
+    .myicontext {
+        width: 250px;
+        height: 45px;
+        top: 0px;
+        font-size: 25px;
+        line-height: 40px;
+    }
+    .mysidebut01 {
+        width: 110px;
+        height: 45px;
+        margin-top: 0px;
+        margin-right: -20px;
+        font-weight: 600;
+        font-style: initial;
+        font-size: 20px;
+        line-height: 0;
+    }
+    .mycasino {
+        height: 105px;
+    }
+    .livelogo01 {
+        margin-top: -10px;
+    }
+    .livelogo01 .livelogo {
+        width: 90px;
+        height: 25px;
+    }
+    .livelogo02 {
+        margin-top: -13px;
+    }
+    .livelogo02 .livelogo {
+        width: 90px;
+        height: 25px;
+    }
+    .livelogo03 .livelogo{
+        width: 90px;
+        height: 45px;
+    }
+    .layat {
+        position: absolute;
+        top: 50px;
+    }
+    .livelogo {
+        height: 40px;
+    }
+    .casinomainbg {
+        background-size: cover;
+    }
+    .slotgamebg {
+        background-size: cover;
+    }
+    .fishmainbg {
+        background-size: cover;
+    }
+    .sportmainbg {
+        background-size: cover;
+    }
+    /*profile*/
+    .col-sm-12.col-md-7.myprofilebg01, .col-sm-12.col-md-4.myprofilebg02 {
+        margin: 5% 0%;
+        width: 100%;
+    }
+    .myproicon {
+        display: initial;
+        width: 50%;
+    }
+}
+/*414px*/
+@media (max-width:414px) {
+    .container {
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 100%;
+    }
+    /*manu*/
+    .navbar-toggle .icon-bar {
+        width: 30px;
+        height: 4px;
+        margin: 3px  0 0 -2px;
+    }
+    .navbar-toggle .icon-bar + .icon-bar {
+        margin-top: 4px;
+    }
+    /*logo*/
+    .navbar-brand-logo {
+        height: 50px;
+    }
+     /*signuicon*/
+    .signupicon {
+        font-size: 18px;
+        color: #131313;
+        margin-top: 10px;
+        padding: 0px 2px;
+    }
+    /*welcome*/
+    .welcometitle, welcometitle1 {
+        top: 0px;
+        font-size: 15px;
+        color: #000;
+    }
+    /*lngicon*/
+    .img-flag {
+        margin-top: 0px;
+        margin-left: 0px;
+        height: 28px;
+        width: 28px;
+    }
+    .select2-container--bootstrap .select2-results__option[aria-selected=true] {
+        margin-top: 10px;
+        width: 32px;
+        height: 32px;
+    }
+    .select2-container--bootstrap .select2-selection--single .select2-selection__arrow {
+        position: absolute;
+        bottom: 0;
+        right: 10px;
+        top: 0px;
+        width: 0px;
+    }
+    .select2-container--bootstrap .select2-selection--single .select2-selection__rendered {
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+    .select2-container--bootstrap .select2-results__option {
+        margin-left: 10px;
+    }
+    /*news*/
+    .myspeakericon {
+        width: 30px;
+        height: 30px;
+    }
+    .mynew04 {
+        width: 15%;
+    }
+    .ti_wrapper {
+        width: 85%;
+        height: 30px;
+    }
+    marquee {
+        line-height: 30px;
+        font-size: 13px;
+    }
+    /*chat icon*/
+    .bottombut {
+        top: 48px;
+        width: 70px;
+        height: 45px;
+    }
+    /*jackpot*/
+    .mytopbannerright {
+        height: 60px;
+        width: 100%;
+        margin: 0 auto;
+        background-size: 1150px; 
+
+    }
+    .font-02 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    /*manu 4 boxs*/
+    .myicontext {
+        width: 200px;
+        height: 40px;
+        top: -2px;
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .mysidebut01 {
+        width: 100px;
+        height: 40px;
+        margin-top: -2px;
+        margin-right: -20px;
+        font-weight: 600;
+        font-style: initial;
+        font-size: 18px;
+        line-height: 0;
+    }
+    .mycasino {
+        height: 92px;
+    }
+    .livelogo01 {
+        margin-top: -13px;
+    }
+    .livelogo01 .livelogo {
+        width: 90px;
+        height: 25px;
+    }
+    .livelogo02 {
+        margin-top: -13px;
+    }
+    .livelogo02 .livelogo {
+        width: 90px;
+        height: 25px;
+    }
+    .livelogo03 .livelogo{
+        width: 70px;
+        height: 40px;
+    }
+    .layat {
+        position: absolute;
+        top: 48px;
+    }
+    .livelogo {
+        height: 35px;
+    }
+    .casinomainbg {
+        background-size: cover;
+    }
+    .slotgamebg {
+        background-size: cover;
+    }
+    .fishmainbg {
+        background-size: cover;
+    }
+    .sportmainbg {
+        background-size: cover;
+    }
+    .myproicon {
+        display: initial;
+        width: 70%;
+    }
+}
+/*360px~375px*/
+@media (max-width:375px) {
+    .container {
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 100%;
+    }
+    /*manu*/
+    .navbar-toggle .icon-bar {
+        width: 25px;
+        height: 3px;
+        margin: 0 0 0 0;
+    }
+    .navbar-toggle .icon-bar + .icon-bar {
+        margin-top: 4px;
+    }
+    /*logo*/
+    .navbar-brand-logo {
+        height: 50px;
+    }
+     /*signuicon*/
+    .signupicon {
+        font-size: 16px;
+        color: #131313;
+        margin-top: 8px;
+        padding: 0 2px;
+    }
+    /*welcome*/
+    .welcometitle, welcometitle1 {
+        top: -3px;
+        height: 0;
+        color: #000;
+    }
+    /*lngicon*/
+    .img-flag {
+        margin-top: 0px;
+        margin-left: 0px;
+        height: 28px;
+        width: 28px;
+    }
+    .select2-container--bootstrap .select2-results__option[aria-selected=true] {
+        margin-top: 5px;
+        width: 32px;
+        height: 32px;
+    }
+    .select2-container--bootstrap .select2-selection--single .select2-selection__arrow {
+        position: absolute;
+        bottom: 0;
+        right: 10px;
+        top: 0px;
+        width: 0px;
+    }
+    .select2-container--bootstrap .select2-selection--single .select2-selection__rendered {
+        margin-top: 0px;
+        margin-left: 10px;
+    }
+    .select2-container--bootstrap .select2-results__option {
+        margin-left: 10px;
+    }
+    /*news*/
+    .myspeakericon {
+        width: 30px;
+        height: 30px;
+    }
+    .mynew04 {
+        width: 15%;
+    }
+    .ti_wrapper {
+        width: 85%;
+        height: 30px;
+    }
+    marquee {
+        line-height: 30px;
+        font-size: 13px;
+    }
+    /*chat icon*/
+    .bottombut {
+        top: 48px;
+        width: 70px;
+        height: 45px;
+    }
+    /*jackpot*/
+    .mytopbannerright {
+        height: 50px;
+        width: 100%;
+        margin: 0 auto;
+        background-size: 950px; 
+
+    }
+    .font-02 {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    /*manu 4 boxs*/
+    .myicontext {
+        width: 150px;
+        height: 30px;
+        top: -2px;
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .mysidebut01 {
+        width: 80px;
+        height: 30px;
+        margin-top: -2px;
+        margin-right: -15px;
+        font-weight: 600;
+        font-style: initial;
+        font-size: 15px;
+        line-height: 0;
+    }
+    .mycasino {
+        height: 82px;
+    }
+    .livelogo01 {
+        margin-top: -10px;
+    }
+    .livelogo01 .livelogo {
+        width: 70px;
+        height: 20px;
+    }
+    .livelogo02 {
+        margin-top: -13px;
+    }
+    .livelogo02 .livelogo {
+        width: 70px;
+        height: 20px;
+    }
+    .livelogo03 .livelogo{
+        width: 70px;
+        height: 40px;
+    }
+    .layat {
+        position: absolute;
+        top: 35px;
+    }
+    .livelogo {
+        height: 30px;
+    }
+    .casinomainbg {
+        background-size: cover;
+    }
+    .slotgamebg {
+        background-size: cover;
+    }
+    .fishmainbg {
+        background-size: cover;
+    }
+    .sportmainbg {
+        background-size: cover;
+    }
+    .myproicon {
+        display: initial;
+        width: 70%;
+    }
+}
+/*320px*/
+@media (max-width:320px) {
+    .container {
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 100%;
+    }
+    /*manu*/
+    .navbar-toggle .icon-bar {
+        width: 22px;
+        height: 3px;
+        margin: 0 0 0 0;
+    }
+    .navbar-toggle .icon-bar + .icon-bar {
+        margin-top: 4px;
+    }
+    /*logo*/
+    .navbar-brand-logo {
+        height: 50px;
+    }
+     /*signuicon*/
+    .signupicon {
+        font-size: 16px;
+        color: #131313;
+        margin-top: 8px;
+        padding: 0px 2px;
+    }
+    /*welcome*/
+    .welcometitle, welcometitle1 {
+        top: -3px;
+        height: 0;
+        color: #000;
+    }
+    /*lngicon*/
+    .img-flag {
+        margin-top: 0px;
+        margin-left: 0px;
+        height: 28px;
+        width: 28px;
+    }
+    .select2-container--bootstrap .select2-results__option[aria-selected=true] {
+        margin-top: 10px;
+        width: 32px;
+        height: 32px;
+    }
+    .select2-container--bootstrap .select2-selection--single .select2-selection__arrow {
+        position: absolute;
+        bottom: 0;
+        right: 10px;
+        top: 0px;
+        width: 0px;
+    }
+    .select2-container--bootstrap .select2-selection--single .select2-selection__rendered {
+        margin-top: 0px;
+        margin-left: 10px;
+    }
+    .select2-container--bootstrap .select2-results__option {
+        margin-left: 10px;
+    }
+    /*news*/
+    .myspeakericon {
+        width: 30px;
+        height: 30px;
+    }
+    .mynew04 {
+        width: 15%;
+    }
+    .ti_wrapper {
+        width: 85%;
+        height: 30px;
+    }
+    marquee {
+        line-height: 28px;
+        font-size: 13px;
+    }
+    /*chat icon*/
+    .bottombut {
+        top: 42px;
+        width: 70px;
+        height: 45px;
+    }
+    /*jackpot*/
+    .mytopbannerright {
+        height: 50px;
+        width: 100%;
+        margin: 0 auto;
+        background-size: 950px; 
+
+    }
+    .font-02 {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    /*manu 4 boxs*/
+    .myicontext {
+        width: 130px;
+        height: 30px;
+        top: -2px;
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .mysidebut01 {
+        width: 80px;
+        height: 30px;
+        margin-top: -2px;
+        margin-right: -15px;
+        font-weight: 600;
+        font-style: initial;
+        font-size:15px;
+        line-height: 0;
+    }
+    .mycasino {
+        height: 85px;
+    }
+    .livelogo01 {
+        margin-top: -10px;
+    }
+    .livelogo01 .livelogo {
+        width: 70px;
+        height: 20px;
+    }
+    .livelogo02 {
+        margin-top: -13px;
+    }
+    .livelogo02 .livelogo {
+        width: 70px;
+        height: 20px;
+    }
+    .livelogo03 .livelogo{
+        width: 70px;
+        height: 40px;
+    }
+    .layat {
+        position: absolute;
+        top: 35px;
+    }
+    .livelogo {
+        height: 30px;
+    }
+    .casinomainbg {
+        background-size: cover;
+    }
+    .slotgamebg {
+        background-size: cover;
+    }
+    .fishmainbg {
+        background-size: cover;
+    }
+    .sportmainbg {
+        background-size: cover;
+    }
+    /*profile*/
+    .col-sm-5.control-label.my, .col-sm-3.control-label.my {
+        padding-right: 0px;
+        font-size: 15px;
+        color: #eee;
+    }
+    .myproicon {
+        display: initial;
+        width: 80%;
+    }
+}

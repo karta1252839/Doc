@@ -1,0 +1,707 @@
+﻿
+.rankingImg{
+    height: 300px;
+    /* width: 100%; */
+    background-image: url(../img/imgHomepageTop3Table.png);
+    position: relative;
+    z-index: 0;
+    padding: 15px 30px;
+    /* background-size: contain; */
+    background-repeat: no-repeat;
+    max-width: 528px;
+    background-size: contain;
+    margin: 0 auto;
+}
+
+.rankingChampImg{
+    height: 300px;
+    /* width: 100%; */
+    background-image: url(../img/imgHomepageTop3Trophy.png);
+    position: relative;
+    z-index: 0;
+    padding: 15px 30px;
+    /* background-size: contain; */
+    background-repeat: no-repeat;
+    max-width: 528px;
+    background-size: contain;
+    margin: 0 auto;
+}
+
+.ranking_div_top1{
+    width: 90%;
+    height: 30px;
+    margin: 0 auto;
+    background-color: none;
+    margin-top: 20%;
+}
+
+.ranking_div_top2{
+    width: 90%;
+    height: 30px;
+    margin: 0 auto;
+    background-color: none;
+    margin-top: 3%;
+}
+
+.ranking_div_top3{
+     width: 90%;
+    height: 30px;
+    margin: 0 auto;
+    background-color: none;
+    margin-top: 3%;
+}
+
+.ranking_medal{
+    width:50px;
+    height:30px;
+    float:left;
+}
+
+.ranking_name{
+    width:80px;
+    height:30px;
+    line-height:30px;
+    margin-left:20px;
+    font-weight:bold;
+    color:white;
+    font-size:4vw;
+    float:left;
+}
+
+.ranking_money{
+    max-width :198px;
+    height:30px;
+    line-height:30px;
+    margin-left:10px;
+    font-weight:bold;
+    color:white;
+    font-size:4vw;
+    float:left;
+}
+
+
+.champ_name_top1{
+    width:33.33%;
+    float:left;
+    height:30px;
+    color:white;
+    text-align:center;
+    line-height:30px;
+    bottom: 40px;
+    position: absolute;
+    left: 113px;
+    font-size: 13px;
+}
+
+.champ_name_top2{
+    width:33.33%;
+    height:30px;
+    color:white;
+    text-align:center;
+    float:left;
+    line-height:30px;
+    bottom: 36px;
+    position: absolute;
+    left: 3px;
+    font-size: 13px;
+}
+
+.champ_name_top3{
+    width:33.33%;
+    height:30px;
+    color:white;
+    text-align:center;
+    line-height:30px;
+    float:left;
+    bottom: 32px;
+    right: -2px;
+    position: absolute;
+    font-size: 12px;
+}
+
+
+.nc1{
+    position: absolute;
+    /* bottom: 8%; */
+    margin-top: 35%;
+    left: 0;
+    /* width: 33%; */
+    height: calc(300px / 6);
+    text-align: center;
+    line-height: 25px;
+    width: calc(99.9% * 1/3);
+    font-size: calc(15px + 3 * ((100vw - 420px) / 860));
+}
+
+.nc2{
+    position: absolute;
+    /* bottom: 8%; */
+    margin-top: 35%;
+    left: 33%;
+    /* width: 33%; */
+    height: calc(300px / 6);
+    text-align: center;
+    line-height: 25px;
+    width: calc(99.9% * 1/3);
+    font-size: calc(15px + 3 * ((100vw - 420px) / 860));
+}
+
+.nc3{
+    position: absolute;
+    /* bottom: 8%; */
+    margin-top: 37%;
+    left: 66%;
+    /* width: 33%; */
+    height: calc(300px / 6);
+    text-align: center;
+    line-height: 25px;
+    width: calc(99.9% * 1/3);
+    font-size: calc(15px + 3 * ((100vw - 420px) / 860));
+}
+
+/*Ranking System*/
+
+@media (min-width:320px) and (max-width:359px) {
+
+.ranking_div_top1{
+    width: 90%;
+    height: 20px;
+    margin: 0 auto;
+    background-color: none;
+    margin-top: 20%;
+}
+
+.ranking_div_top2{
+    width: 90%;
+    height: 20px;
+    margin: 0 auto;
+    background-color: none;
+    margin-top: 3%;
+}
+
+.ranking_div_top3{
+    width: 90%;
+    height: 20px;
+    margin: 0 auto;
+    background-color: none;
+    margin-top: 3%;
+}
+
+.ranking_medal{
+    width:30px;
+    height:20px;
+    float:left;
+}
+
+.ranking_name{
+    width:60px;
+    height:20px;
+    line-height:20px;
+    margin-left:16px;
+    font-weight:bold;
+    color:white;
+    font-size:4vw;
+    float:left;
+}
+
+.ranking_money{
+    max-width:198px;
+    height:20px;
+    line-height:20px;
+    margin-left:38px;
+    font-weight:bold;
+    color:white;
+    font-size:11px;
+    float:left;
+}
+
+
+    .rankingImg {
+        height: 200px;
+    }
+
+    .rankingChampImg {
+        height:200px
+    }
+
+    .champ_name_top1{
+        bottom: 6vh;
+        position: absolute;
+        left: 116px;
+        font-size:15px;
+    }
+
+    .champ_name_top2{
+        bottom: 6vh;
+        position: absolute;
+        left: 3px;
+        font-size:15px;
+    }
+
+    .champ_name_top3{
+        bottom: 4vh;
+        position: absolute;
+        right:-2px;
+        font-size:15px;
+    }
+
+}
+
+@media (min-width:360px) and (max-width:429px) {
+
+    .ranking_div_top1{
+    width: 100%;
+    height: 20px;
+    margin: 0 auto;
+    background-color: none;
+    margin-top: 20%;
+}
+
+.ranking_div_top2{
+    width: 100%;
+    height: 20px;
+    margin: 0 auto;
+    background-color: none;
+    margin-top: 3%;
+}
+
+.ranking_div_top3{
+    width: 100%;
+    height: 20px;
+    margin: 0 auto;
+    background-color: none;
+    margin-top: 3%;
+}
+
+.ranking_medal{
+    width:30px;
+    height:20px;
+    float:left;
+}
+
+.ranking_name{
+    width:80px;
+    height:20px;
+    line-height:20px;
+    margin-left:20px;
+    font-weight:bold;
+    color:white;
+    font-size:4vw;
+}
+
+.ranking_money{
+    max-width:190px;
+    height:20px;
+    line-height:20px;
+    margin-left:10px;
+    font-weight:bold;
+    color:white;
+    font-size:4vw;
+}
+
+    .rankingImg {
+        height: 200px;
+        width:85%;
+    }
+
+    .rankingChampImg {
+        height:200px;
+        width: 85%;
+    }
+
+    .champ_name_top1{
+        bottom: 6vh;
+        position: absolute;
+        left: 116px;
+        font-size:15px;
+    }
+
+    .champ_name_top2{
+        bottom: 4vh;
+        position: absolute;
+        left: 3px;
+        font-size:15px;
+    }
+
+    .champ_name_top3{
+        bottom: 4vh;
+        position: absolute;
+        right:-2px;
+        font-size:15px;
+    }
+
+}
+
+@media (min-width:440px) and (max-width:612px) {
+
+    .ranking_div_top1{
+    width: 90%;
+    height: 30px;
+    margin: 0 auto;
+    background-color: none;
+    margin-top: 20%;
+}
+
+.ranking_div_top2{
+    width: 90%;
+    height: 30px;
+    margin: 0 auto;
+    background-color: none;
+    margin-top: 3%;
+}
+
+.ranking_div_top3{
+    width: 90%;
+    height:30px;
+    margin: 0 auto;
+    background-color: none;
+    margin-top: 3%;
+}
+
+.ranking_medal{
+    width:40px;
+    height:30px;
+    float:left;
+}
+
+.ranking_name{
+    width:100px;
+    height:30px;
+    line-height:30px;
+    margin-left:20px;
+    font-weight:bold;
+    color:white;
+    font-size:4vw;
+}
+
+.ranking_money{
+    max-width:190px;
+    height:30px;
+    line-height:30px;
+    margin-left:40px;
+    font-weight:bold;
+    color:white;
+    font-size:4vw;
+}
+
+    .champ_name_top1{
+        bottom: 89px;
+        position: absolute;
+        left: 154px;
+        font-weight: bold;
+        font-size: 23px;
+    }
+
+    .champ_name_top2{
+        bottom: 84px;
+        position: absolute;
+        left: 3px;
+        font-weight: bold;
+        font-size: 23px;
+    }
+
+    .champ_name_top3{
+        bottom: 76px;
+        position: absolute;
+        right:-2px;
+        font-weight: bold;
+        font-size: 23px;
+    }
+
+    .bg3{
+    height: 700px;
+}
+
+}
+
+@media (min-width:613px) and (max-width:860px) {
+
+    .ranking_div_top1{
+    width: 90%;
+    height: 30px;
+    margin: 0 auto;
+    background-color: none;
+    margin-top: 20%;
+}
+
+.ranking_div_top2{
+    width: 90%;
+    height: 30px;
+    margin: 0 auto;
+    background-color: none;
+    margin-top: 3%;
+}
+
+.ranking_div_top3{
+    width: 90%;
+    height:30px;
+    margin: 0 auto;
+    background-color: none;
+    margin-top: 3%;
+}
+
+.ranking_medal{
+    width:40px;
+    height:30px;
+    float:left;
+}
+
+.ranking_name{
+    width:120px;
+    height:30px;
+    line-height:30px;
+    margin-left:20px;
+    font-weight:bold;
+    color:white;
+    font-size:3vw;
+}
+
+.ranking_money{
+    max-width:190px;
+    height:30px;
+    line-height:30px;
+    margin-left:30px;
+    font-weight:bold;
+    color:white;
+    font-size:3vw;
+}
+
+ .champ_name_top1{
+    bottom: 52px;
+    position: absolute;
+    left: 183px;
+    font-weight: bold;
+    font-size: 29px;
+}
+
+.champ_name_top2{
+    bottom: 49px;
+    position: absolute;
+    left: 3px;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.champ_name_top3{
+    bottom: 42px;
+    position: absolute;
+    right:-2px;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.bg3{
+    height: 700px;
+}
+
+}
+
+@media (min-width:861px) and (max-width:1024px) {
+
+    .ranking_div_top1{
+    width: 90%;
+    height: 30px;
+    margin: 0 auto;
+    background-color: none;
+    margin-top: 20%;
+}
+
+.ranking_div_top2{
+    width: 90%;
+    height: 30px;
+    margin: 0 auto;
+    background-color: none;
+    margin-top: 3%;
+}
+
+.ranking_div_top3{
+    width: 90%;
+    height:30px;
+    margin: 0 auto;
+    background-color: none;
+    margin-top: 3%;
+}
+
+.ranking_medal{
+    width:40px;
+    height:30px;
+    float:left;
+}
+
+.ranking_name{
+    width:120px;
+    height:30px;
+    line-height:30px;
+    margin-left:20px;
+    font-weight:bold;
+    color:white;
+    font-size:2vw;
+}
+
+.ranking_money{
+    max-width:190px;
+    height:30px;
+    line-height:30px;
+    margin-left:30px;
+    font-weight:bold;
+    color:white;
+    font-size:2vw;
+}
+
+ .champ_name_top1{
+    bottom: 52px;
+    position: absolute;
+    left: 183px;
+    font-weight: bold;
+    font-size: 29px;
+}
+
+.champ_name_top2{
+    bottom: 49px;
+    position: absolute;
+    left: 3px;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.champ_name_top3{
+    bottom: 42px;
+    position: absolute;
+    right:-2px;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.bg3{
+    height: 700px;
+}
+
+}
+
+@media (min-width:1025px) {
+
+    .ranking_div_top1{
+    width: 90%;
+    height: 30px;
+    margin: 0 auto;
+    background-color: none;
+    margin-top: 20%;
+}
+
+.ranking_div_top2{
+    width: 90%;
+    height: 30px;
+    margin: 0 auto;
+    background-color: none;
+    margin-top: 3%;
+}
+
+.ranking_div_top3{
+    width: 90%;
+    height:30px;
+    margin: 0 auto;
+    background-color: none;
+    margin-top: 3%;
+}
+
+.ranking_medal{
+    width:40px;
+    height:30px;
+    float:left;
+}
+
+.ranking_name{
+    width:120px;
+    height:30px;
+    line-height:30px;
+    margin-left:20px;
+    font-weight:bold;
+    color:white;
+    font-size:2vw;
+}
+
+.ranking_money{
+    max-width:190px;
+    height:30px;
+    line-height:30px;
+    margin-left:30px;
+    font-weight:bold;
+    color:white;
+    font-size:2vw;
+}
+
+ .champ_name_top1{
+    bottom: 52px;
+    position: absolute;
+    left: 183px;
+    font-weight: bold;
+    font-size: 29px;
+}
+
+.champ_name_top2{
+    bottom: 49px;
+    position: absolute;
+    left: 3px;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.champ_name_top3{
+    bottom: 42px;
+    position: absolute;
+    right:-2px;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.bg3{
+    height: 700px;
+}
+
+}
+
+
+
+@media (min-width:429px){
+    .nc1{
+    position: absolute;
+    /* bottom: 8%; */
+    margin-top: 38%;
+    left: 0;
+    /* width: 33%; */
+    height: calc(300px / 6);
+    text-align: center;
+    line-height: 25px;
+    width: calc(99.9% * 1/3);
+    font-size: calc(18px + 3 * ((100vw - 420px) / 860));
+}
+
+.nc2{
+    position: absolute;
+    /* bottom: 8%; */
+    margin-top: 38%;
+    left: 33%;
+    /* width: 33%; */
+    height: calc(300px / 6);
+    text-align: center;
+    line-height: 25px;
+    width: calc(99.9% * 1/3);
+    font-size: calc(20px + 3 * ((100vw - 420px) / 860));
+}
+
+.nc3{
+    position: absolute;
+    /* bottom: 8%; */
+    margin-top: 39%;
+    left: 66%;
+    /* width: 33%; */
+    height: calc(300px / 6);
+    text-align: center;
+    line-height: 25px;
+    width: calc(99.9% * 1/3);
+    font-size: calc(18px + 3 * ((100vw - 420px) / 860));
+}
+}
+
+
+/*Ranking System*/

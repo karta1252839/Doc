@@ -1,0 +1,1060 @@
+/*new addon may2018*/
+    .loginbutton {
+        width: 70px;
+        background: linear-gradient(#fadb5a ,#b98a36);
+        color: black;
+        float: left;
+        height: 30px;
+        padding: 0px;
+        border: 2px solid #a88a3e;
+        border-radius: 5px;
+        top: 10px;
+        left: 10px;
+        font-weight: 600;
+    }
+    .signupbutton {
+        width: 80px;
+        background: linear-gradient(#ff3c00 ,#7d0000);
+        color: black;
+        float: left;
+        height: 30px;
+        padding: 0px;
+        border: 2px solid #b20000;
+        border-radius: 5px;
+        top: 10px;
+        left: 20px;
+        font-weight: 600;
+    }
+    .bg1 {
+        background: #000 url(../../../Assets/img/bg1.jpg)center;
+    }
+    .bg2 {
+        background: #000 url(../../../Assets/img/bg2.jpg)center;
+    }
+    .info2 {
+        width: 100%;
+        float: left;
+    }
+    .title1 {
+        text-align: center;
+        color: #fff;
+    }
+    .padding1 {
+        padding:10px;
+    }
+    .padding2 {
+        padding:5px;
+        width:33.333333%
+    }
+/*end may2018*/
+@media (max-width:1980px) {
+    
+}
+@media (min-width:801px) {
+    .chatsize {
+        width: 55px;
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+
+    .bottombut {
+        top: 170px;
+        left: -25px;
+        width: 100px;
+        height: 60px;
+    }
+}
+ 
+/*811px~812px*/
+@media (min-width:811px) and (max-width:812px) {
+    /*4 boxs*/
+    .col-fb-3 {
+        width: 25%;
+        padding: 15px;
+    }
+    /*bank icon*/
+    .col-xs-12 h4 {
+        font-size: 25px;
+    }
+    .padding1 {
+        padding: 5px;
+        width: 16.6666666%;
+    }
+    .padding2 {
+        width: 24%;
+    }
+}
+
+/*812px*/
+@media (max-width:812px) {
+    /*right manu*/
+    .navbar-header {
+        min-height: 80px;
+        position: relative;
+    }
+    .navbar-toggle .icon-bar {
+        width: 45px;
+        height: 5px;
+    }
+    .navbar-toggle {
+        padding: 20px 0px 0px 0px;
+    }
+    .navbar-toggle .icon-bar + .icon-bar {
+        margin-top: 10px;
+    }
+    /*right manu font*/
+    .navbar-nav > li > a, .navbar-nav1 > li > a, .navbar-nav2 > li > a, .navbar-nav3 > li > a {
+        font-size: 22px;
+    }
+    /*language icon*/
+    .mylang {
+        width: 100px;
+    }
+    .img-flag {
+        height: 35px;
+        width: 45px;
+    }
+    .form-group {
+        margin-bottom: 0px;
+    }
+    .select2-container--bootstrap .select2-selection--single {
+        padding: 20px 0px 0px 0px;
+    }
+    .select2-container--bootstrap .select2-dropdown {
+        width: 70px !important;
+        margin-left: -10px;
+    }
+    .select2-container--bootstrap .select2-results__option[aria-selected=true] {
+        width: 49px;
+        height: 39px;
+        border-radius: 0px;
+    }
+    .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b {
+        margin-left:-20px;
+        margin-top: 5px;
+    }
+    .select2-container--bootstrap .select2-selection--single .select2-selection__arrow {
+        position: absolute;
+        bottom: 0;
+        right: 10px;
+        top: 15px;
+        width: 4px;
+    }
+    .select2-results__option {
+        margin: 15px 7px;
+    }
+    /*login button*/
+    .loginbutton {
+        width: 100px;
+        background: linear-gradient(#fadb5a ,#b98a36);
+        color: black;
+        float: left;
+        height: 40px;
+        padding: 0px;
+        border: 2px solid #a88a3e;
+        border-radius: 5px;
+        top: 20px;
+        left: 0px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    /*singup button*/
+    .signupbutton {
+        width:110px;
+        background: linear-gradient(#ff3c00 ,#7d0000);
+        color: #ffec8d;
+        float: left;
+        height: 40px;
+        padding: 0px;
+        border: 2px solid #b20000;
+        border-radius: 5px;
+        top: 20px;
+        left: 20px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    /*logo*/
+    .logo {
+        background: -webkit-linear-gradient(top, #38c9ff 0%, #1a4b7f 100%);
+        background: -o-linear-gradient(top, #38c9ff 0%, #1a4b7f 100%);
+        background: -moz-linear-gradient(top,#38c9ff 0%, #1a4b7f 100%);
+        background: linear-gradient(to top, #38c9ff 0%, #1a4b7f 100%);
+        width: 100%;
+        min-height: 122px;
+    }
+    .navbar-brand > img {
+        margin-top: 5px;
+    }
+    .navbar-brand-logo {
+        margin-left: 0px;
+    }
+    .navbar-brand-logo {
+        height: 80px;
+    }
+    /*live chat*/
+    .bottombut {
+        top: 130px;
+        left: -25px;
+        width: 100px;
+        height: 60px;
+    }
+    .chatsize {
+        width: 55px;
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+    /*dowmload button*/
+    .dlbox {
+        top: 130px;
+    }
+    .dlboxbar {
+        width: 40px!important;
+        height: 60px;
+    }
+    .dlbaricon {
+        top: 10px;
+    }
+    .dliconwidth {
+        width: 70px;
+    }
+    .dliconwidth1 {
+        width: 40px;
+    }
+    /*news bad*/
+    .example1 {
+        height: 40px;
+    }
+    .example1 h3 {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 40px;
+    }
+    /*bannat*/
+    .carousel {
+        margin-top: 0px;
+    }
+/*play button*/
+.mysidebut01 {
+width: 100px;
+height: 100px;
+box-shadow: 0px 0px 0px #000;
+float: left;
+margin-top: -15px;
+margin-left: -16px;
+}
+    .gameiconpadding {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+/*735px~768px*/
+@media (min-width:735px) and (max-width:768px) {
+    /*4 boxs*/
+    .col-fb-3 {
+        width: 25%;
+        padding: 15px;
+    }
+    /*bank icon*/
+    .col-xs-12 h4 {
+        font-size: 25px;
+    }
+    .padding1 {
+        padding: 5px;
+        width: 16.6666666%;
+    }
+    .padding2 {
+        width: 24%;
+    }
+}
+
+/*736px*/
+@media (max-width:736px) {
+    /*right manu*/
+    .navbar-header {
+        min-height: 70px;
+        position: relative;
+    }
+    .navbar-toggle {
+        padding: 20px 20px 0px 0px;
+    }
+    .navbar-toggle .icon-bar {
+        width: 40px;
+        height: 4px;
+    }
+    /*right manu font*/
+    .navbar-nav > li > a, .navbar-nav1 > li > a, .navbar-nav2 > li > a, .navbar-nav3 > li > a {
+        font-size: 22px;
+    }
+    /*login button*/
+    .loginbutton {
+        width: 100px;
+        background: linear-gradient(#fadb5a ,#b98a36);
+        color: black;
+        float: left;
+        height: 40px;
+        padding: 0px;
+        border: 2px solid #a88a3e;
+        border-radius: 5px;
+        top: 20px;
+        left: 20px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    /*singup button*/
+    .signupbutton {
+        width:110px;
+        background: linear-gradient(#ff3c00 ,#7d0000);
+        color: #ffec8d;
+        float: left;
+        height: 40px;
+        padding: 0px;
+        border: 2px solid #b20000;
+        border-radius: 5px;
+        top: 20px;
+        left: 40px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    /*logo*/
+    .logo {
+        background: -webkit-linear-gradient(top, #38c9ff 0%, #1a4b7f 100%);
+        background: -o-linear-gradient(top, #38c9ff 0%, #1a4b7f 100%);
+        background: -moz-linear-gradient(top,#38c9ff 0%, #1a4b7f 100%);
+        background: linear-gradient(to top, #38c9ff 0%, #1a4b7f 100%);
+        width: 100%;
+        min-height: 111px;
+    }
+    /*play button*/
+    .mysidebut01 {
+        width: 100px;
+        height: 100px;
+        box-shadow: 0px 0px 0px #000;
+        float: left;
+        margin-top: -15px;
+        margin-left: -16px;
+    }
+    /*live chat*/
+    .bottombut {
+        top: 110px;
+        left: -25px;
+        width: 85px;
+        height: 50px;
+    }
+    .chatsize {
+        width: 50px;
+        margin-top: 0px;
+        margin-left: 5px;
+    }
+    /*dowmload button*/
+    .dlbox {
+        top: 110px;
+    }
+    .dlboxbar {
+        width: 40px!important;
+        height: 50px;
+    }
+    .dlbaricon {
+        top: 10px;
+    }
+    .dliconwidth {
+        width: 60px;
+    }
+    .dliconwidth1 {
+        width: 35px;
+    }
+}
+
+/*640px~667px*/
+@media (min-width:640px) and (max-width:667px) {
+    /*4 boxs*/
+    .col-fb-3 {
+        width: 25%;
+        padding: 0px;
+    }
+    /*bank icon*/
+    .col-xs-12 h4 {
+        font-size: 22px;
+    }
+    .padding1 {
+        padding: 5px;
+        width: 16.6666666%;
+    }
+    .padding2 {
+        width: 24%;
+    }
+}
+
+/*667px*/
+@media (max-width:667px) {
+    /*right manu*/
+    .navbar-header {
+        min-height: 70px;
+        position: relative;
+    }
+    .navbar-toggle {
+        padding: 20px 20px 0px 0px;
+    }
+    .navbar-toggle .icon-bar {
+        width: 40px;
+        height: 4px;
+    }
+    /*language icon*/
+    .navbar-toggle .icon-bar + .icon-bar {
+        margin-top: 8px;
+    }
+    /*right manu font*/
+    .navbar-nav > li > a, .navbar-nav1 > li > a, .navbar-nav2 > li > a, .navbar-nav3 > li > a {
+        font-size: 22px;
+    }
+    .img-flag {
+        height: 30px;
+        width: 45px;
+    }
+    /*login button*/
+    .loginbutton {
+        width: 90px;
+        background: linear-gradient(#fadb5a ,#b98a36);
+        color: black;
+        float: left;
+        height: 35px;
+        padding: 0px;
+        border: 2px solid #a88a3e;
+        border-radius: 5px;
+        top: 20px;
+        left: 20px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    /*singup button*/
+    .signupbutton {
+        width:100px;
+        background: linear-gradient(#ff3c00 ,#7d0000);
+        color: #ffec8d;
+        float: left;
+        height: 35px;
+        padding: 0px;
+        border: 2px solid #b20000;
+        border-radius: 5px;
+        top: 20px;
+        left: 40px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    /*logo*/
+    .logo {
+        background: -webkit-linear-gradient(top, #38c9ff 0%, #1a4b7f 100%);
+        background: -o-linear-gradient(top, #38c9ff 0%, #1a4b7f 100%);
+        background: -moz-linear-gradient(top,#38c9ff 0%, #1a4b7f 100%);
+        background: linear-gradient(to top, #38c9ff 0%, #1a4b7f 100%);
+        width: 100%;
+        min-height: 110px;
+    }
+    /*play button*/
+    .mysidebut01 {
+        width: 100px;
+        height: 100px;
+        box-shadow: 0px 0px 0px #000;
+        float: left;
+        margin-top: -15px;
+        margin-left: -16px;
+    }
+    /*live chat*/
+    .bottombut {
+        top: 110px;
+        left: -25px;
+        width: 85px;
+        height: 50px;
+    }
+    .chatsize {
+        width: 50px;
+        margin-top: 0px;
+        margin-left: 5px;
+    }
+    /*dowmload button*/
+    .dlbox {
+        top: 110px;
+    }
+    .dlboxbar {
+        width: 40px!important;
+        height: 50px;
+    }
+    .dlbaricon {
+        top: 10px;
+    }
+    .dliconwidth {
+        width: 60px;
+    }
+    .dliconwidth1 {
+        width: 35px;
+    }
+}
+
+/*568px*/
+@media (max-width:568px) {
+    /*right manu*/
+    .navbar-header {
+        min-height: 50px;
+        position: relative;
+    }
+    .navbar-toggle {
+        padding: 10px 10px 0px 0px;
+    }
+    .navbar-toggle .icon-bar {
+        width: 35px;
+        height: 4px;
+    }
+    .navbar-toggle .icon-bar + .icon-bar {
+        margin-top: 8px;
+    }
+    /*right manu font*/
+    .navbar-nav > li > a, .navbar-nav1 > li > a, .navbar-nav2 > li > a, .navbar-nav3 > li > a {
+        font-size: 22px;
+    }
+    /*language icon*/
+    .select2-container--bootstrap .select2-selection--single {
+        padding: 10px 0px 0px 0px;
+    }
+    .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b {
+        margin-left: -30px;
+        margin-top: -5px;
+    }
+    .img-flag {
+        height: 30px;
+        width: 40px;
+    }
+    /*login button*/
+    .loginbutton {
+        width: 85px;
+        background: linear-gradient(#fadb5a ,#b98a36);
+        color: black;
+        float: left;
+        height: 30px;
+        padding: 0px;
+        border: 2px solid #a88a3e;
+        border-radius: 5px;
+        top: 10px;
+        left: 20px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    /*singup button*/
+    .signupbutton {
+        width:95px;
+        background: linear-gradient(#ff3c00 ,#7d0000);
+        color: #ffec8d;
+        float: left;
+        height: 30px;
+        padding: 0px;
+        border: 2px solid #b20000;
+        border-radius: 5px;
+        top: 10px;
+        left: 40px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    /*logo*/
+    .logo {
+        background: -webkit-linear-gradient(top, #38c9ff 0%, #1a4b7f 100%);
+        background: -o-linear-gradient(top, #38c9ff 0%, #1a4b7f 100%);
+        background: -moz-linear-gradient(top,#38c9ff 0%, #1a4b7f 100%);
+        background: linear-gradient(to top, #38c9ff 0%, #1a4b7f 100%);
+        width: 100%;
+        min-height: 86px;
+    }
+    /*play button*/
+    .mysidebut01 {
+        width: 100px;
+        height: 100px;
+        box-shadow: 0px 0px 0px #000;
+        float: left;
+        margin-top: -15px;
+        margin-left: -16px;
+    }
+    /*live chat*/
+    .bottombut {
+        top: 80px;
+        left: -25px;
+        width: 75px;
+        height: 45px;
+    }
+    .chatsize {
+        width: 40px;
+        margin-top: -5px;
+        margin-left: 5px;
+    }
+    /*dowmload button*/
+    .dlbox {
+        top: 80px;
+    }
+    .dlboxbar {
+        width: 40px!important;
+        height: 45px;
+    }
+    .dlbaricon {
+        top: 5px;
+    }
+    .dliconwidth {
+        width: 50px;
+    }
+    .dliconwidth1 {
+        width: 30px;
+    }
+    .col-xs-12 h4 {
+        font-size: 22px;
+    }
+}
+
+/*413px~414px*/
+@media (min-width:413px) and (max-width:414px) {
+    /*logo*/
+    .col-logo-3 {
+        width: 30%;
+    }
+    .col-logo-6 {
+        width: 40%;
+    }
+}
+
+/*414px*/
+@media (max-width:414px) {
+    /*right manu*/
+    .navbar-header {
+        min-height: 50px;
+        position: relative;
+    }
+    .navbar-toggle {
+        padding: 10px 10px 0px 0px;
+    }
+    .navbar-toggle .icon-bar {
+        width: 30px;
+        height: 4px;
+    }
+    .navbar-toggle .icon-bar + .icon-bar {
+        margin-top: 5px;
+    }
+    /*right manu font*/
+    .navbar-nav > li > a, .navbar-nav1 > li > a, .navbar-nav2 > li > a, .navbar-nav3 > li > a {
+        font-size: 22px;
+    }
+    /*language icon*/
+    .select2-container--bootstrap .select2-selection--single {
+        padding: 10px 0px 0px 30px;
+    }
+    .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b {
+        margin-left: -10px;
+        margin-top: -5px;
+    }
+    .select2-container--bootstrap .select2-dropdown {;
+        margin-left: 20px;
+    }
+    .img-flag {
+        height: 25px;
+        width: 35px;
+    }
+    /*login button*/
+    .loginbutton {
+        width: 70px;
+        background: linear-gradient(#fadb5a ,#b98a36);
+        color: black;
+        float: left;
+        height: 30px;
+        padding: 0px;
+        border: 2px solid #a88a3e;
+        border-radius: 5px;
+        top: 10px;
+        left: 10px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    /*singup button*/
+    .signupbutton {
+        width:85px;
+        background: linear-gradient(#ff3c00 ,#7d0000);
+        color: #ffec8d;
+        float: left;
+        height: 30px;
+        padding: 0px;
+        border: 2px solid #b20000;
+        border-radius: 5px;
+        top: 10px;
+        left: 20px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    /*logo*/
+    .logo {
+        background: -webkit-linear-gradient(top, #38c9ff 0%, #1a4b7f 100%);
+        background: -o-linear-gradient(top, #38c9ff 0%, #1a4b7f 100%);
+        background: -moz-linear-gradient(top,#38c9ff 0%, #1a4b7f 100%);
+        background: linear-gradient(to top, #38c9ff 0%, #1a4b7f 100%);
+        width: 100%;
+        min-height: 75px;
+    }
+    /*play button*/
+    .mysidebut01 {
+        width: 100px;
+        height: 100px;
+        box-shadow: 0px 0px 0px #000;
+        float: left;
+        margin-top: -15px;
+        margin-left: -16px;
+    }
+    /*news*/
+    .example1 {
+        height: 30px;
+    }
+    .example1 h3 {
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 30px;
+    }
+    /*live chat*/
+    .bottombut {
+        top: 160px;
+        left: -25px;
+        width: 70px;
+        height: 40px;
+    }
+    .chatsize {
+        width: 35px;
+        margin-top: -15px;
+        margin-left: 5px;
+    }
+    /*dowmload button*/
+    .dlbox {
+        top: 160px;
+    }
+    .dlboxbar {
+        width: 40px!important;
+        height: 40px;
+    }
+    .dlbaricon {
+        top: 3px;
+        left: 2px;
+    }
+    .dliconwidth {
+        width: 45px;
+    }
+    .dliconwidth1 {
+        width: 25px;
+    }
+}
+
+/*320px~375px*/
+@media (min-width:320px) and (max-width:375px) {    
+    /*logo*/
+    .col-logo-3 {
+        width: 30%;
+    }
+    .col-logo-6 {
+        width: 40%;
+    }
+    /*4 boxs*/
+    .boxswidth1 {
+        width: 100%;
+        padding: 0 0 0 20px;
+    }
+    .boxswidth2 {
+        width: 100%;
+        padding: 0 20px 0 0;
+    }
+    .boxswidth3 {
+        width: 100%;
+        padding: 0 0 0 20px;
+    }
+    .boxswidth4 {
+        width: 100%;
+        padding: 0 20px 0 0;
+    }
+    /*bank icon*/
+    .col-xs-12 h4 {
+        font-size: 20px;
+    }
+    .gameiconpadding {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .padding1 {
+        padding: 5px;
+        width: 33.333333%;
+    }
+    .padding2 {
+        width: 49.333333%;
+    }
+}
+
+/*375px*/
+@media (max-width:375px) {
+    /*right manu*/
+    .navbar-header {
+        min-height: 50px;
+        position: relative;
+    }
+    .navbar-toggle {
+        padding: 10px 10px 0px 0px;
+    }
+    .navbar-toggle .icon-bar {
+        width: 30px;
+        height: 4px;
+    }
+    .navbar-toggle .icon-bar + .icon-bar {
+        margin-top: 5px;
+    }
+    /*right manu font*/
+    .navbar-nav > li > a, .navbar-nav1 > li > a, .navbar-nav2 > li > a, .navbar-nav3 > li > a {
+        font-size: 22px;
+    }
+    /*language icon*/
+    .select2-container--bootstrap .select2-selection--single {
+        padding: 10px 0px 0px 30px;
+    }
+    .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b {
+        margin-left: -10px;
+        margin-top: -5px;
+    }
+    .select2-container--bootstrap .select2-dropdown {;
+        margin-left: 20px;
+    }
+    .img-flag {
+        height: 25px;
+        width: 35px;
+    }
+    /*login button*/
+    .loginbutton {
+        width: 70px;
+        background: linear-gradient(#fadb5a ,#b98a36);
+        color: black;
+        float: left;
+        height: 27px;
+        padding: 0px;
+        border: 2px solid #a88a3e;
+        border-radius: 5px;
+        top: 10px;
+        left: 10px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    /*singup button*/
+    .signupbutton {
+        width:85px;
+        background: linear-gradient(#ff3c00 ,#7d0000);
+        color: #ffec8d;
+        float: left;
+        height: 27px;
+        padding: 0px;
+        border: 2px solid #b20000;
+        border-radius: 5px;
+        top: 10px;
+        left: 20px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    /*logo*/
+    .logo {
+        background: -webkit-linear-gradient(top, #38c9ff 0%, #1a4b7f 100%);
+        background: -o-linear-gradient(top, #38c9ff 0%, #1a4b7f 100%);
+        background: -moz-linear-gradient(top,#38c9ff 0%, #1a4b7f 100%);
+        background: linear-gradient(to top, #38c9ff 0%, #1a4b7f 100%);
+        width: 100%;
+        min-height: 70px;
+    }
+    /*play button*/
+    .mysidebut01 {
+        width: 100px;
+        height: 100px;
+        box-shadow: 0px 0px 0px #000;
+        float: left;
+        margin-top: -15px;
+        margin-left: -16px;
+    }
+    /*news*/
+    .example1 {
+        height: 30px;
+    }
+    .example1 h3 {
+        font-size: 15px;
+        font-weight: 100;
+        line-height: 27px;
+    }
+    /*live chat*/
+    .bottombut {
+        top: 160px;
+        left: -25px;
+        width: 70px;
+        height: 40px;
+    }
+    .chatsize {
+        width: 35px;
+        margin-top: -15px;
+        margin-left: 5px;
+    }
+    /*dowmload button*/
+    .dlbox {
+        top: 160px;
+    }
+    .dlboxbar {
+        width: 40px!important;
+        height: 40px;
+    }
+    .dlbaricon {
+        top: 3px;
+        left: 2px;
+    }
+    .dliconwidth {
+        width: 45px;
+    }
+    .dliconwidth1 {
+        width: 25px;
+    }
+}
+
+/*320px*/
+@media (max-width:320px) {
+    /*manu*/
+    .navbar-toggle {
+        padding: 10px 10px;
+    }
+    .navbar-nav > li > a, .navbar-nav1 > li > a, .navbar-nav2 > li > a, .navbar-nav3 > li > a {
+        line-height: 45px;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .navbar-toggle .icon-bar {
+        width: 27px;
+        height: 3px;
+    }
+    /*language icon*/
+    .img-flag {
+        height: 20px;
+        width: 30px;
+    }
+
+    .select2-container--bootstrap .select2-results__option[aria-selected=true] {
+        width: 34px;
+        height: 24px;
+        padding: 0px 0px 0px 2px;
+    }
+
+    .select2-container--bootstrap .select2-selection--single {
+        padding: 10px 0px 0px 35px;
+    }
+
+    .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b {
+        margin-top: -5px;
+    }
+
+    .select2-container--bootstrap .select2-dropdown {
+        margin-left: 24px;
+    }
+
+    .select2-results__options {
+        margin: 8px;
+    }
+
+    .select2-container--bootstrap .select2-selection--single .select2-selection__rendered {
+        padding: 0px;
+    }
+
+    .select2-results__options {
+    margin: 2px;
+    }
+
+    /*login button*/
+    .loginbutton {
+        width: 55px;
+        background: linear-gradient(#fadb5a ,#b98a36);
+        color: black;
+        float: left;
+        height: 25px;
+        padding: 0px;
+        border: 2px solid #a88a3e;
+        border-radius: 5px;
+        top: 10px;
+        left: 10px;
+        font-size: 13px;
+        font-weight: 600;
+    }
+    /*singup button*/
+    .signupbutton {
+        width: 70px;
+        background: linear-gradient(#ff3c00 ,#7d0000);
+        color: #ffec8d;
+        float: left;
+        height: 25px;
+        padding: 0px;
+        border: 2px solid #b20000;
+        border-radius: 5px;
+        top: 10px;
+        left: 20px;
+        font-size: 13px;
+        font-weight: 600;
+    }
+
+    /*logo*/
+    .logo {
+        background: -webkit-linear-gradient(top, #38c9ff 0%, #1a4b7f 100%);
+        background: -o-linear-gradient(top, #38c9ff 0%, #1a4b7f 100%);
+        background: -moz-linear-gradient(top,#38c9ff 0%, #1a4b7f 100%);
+        background: linear-gradient(to top, #38c9ff 0%, #1a4b7f 100%);
+        width:100%;
+        min-height: 60px;
+    }
+
+    /*live chat*/
+    .bottombut {
+        top: 160px;
+        left: -25px;
+        width: 65px;
+        height: 40px;
+    }
+    .chatsize {
+        width: 33px;
+        margin-top: -15px;
+        margin-left: 3px;
+    }
+    /*dowmload button*/
+    .dlbox {
+        top: 160px;
+    }
+    .dlboxbar {
+        width: 40px!important;
+        height: 40px;
+    }
+    .dlbaricon {
+        top: 3px;
+        left: 2px;
+    }
+    .dliconwidth {
+        width: 40px;
+    }
+    .dliconwidth1 {
+        width: 25px;
+    }
+    /*news bad*/
+    .example1 {
+        height: 25px;
+    }
+    .example1 h3 {
+        font-size: 12px;
+        font-weight: 100;
+        line-height: 25px;
+    }
+
+    /*footer*/
+    .copyrighttext {
+        margin-top: 5px;
+    }
+
+    /*register form title text*/
+    .h3, h3 {
+        font-size: 25px;
+    }
+
+    /*login form button*/
+    .loginButton {
+        font-size: 14px;
+    }
+}
+
+    

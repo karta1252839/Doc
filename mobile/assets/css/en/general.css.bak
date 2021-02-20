@@ -1,0 +1,9 @@
+
+body, html {
+  background-color: #071125; /* Used if the image is unavailable */
+  height: 100%;  /* You must set a specified height */  
+  font-family : arial, tahoma;
+  margin: 0;
+  padding: 0;
+}
+
